@@ -1,0 +1,117 @@
+# 100-days-of-python-codes
+# Happy Learning ! 
+# Day 2 
+# Operators in Python
+
+
+~ Arithmetic Operators
+
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Floor Division (//)
+6. Modulus (%)
+7. Exponentiation (**)
+
+print(4+2) # Addtion -> adding the numbers
+
+print(4-2) # subtraction-> subtract the number
+
+print(4*2) # Multiplication -> Multiply the number
+
+print(4/2) # Divsion -> Divide the numnber
+
+print(4//2) # Floor Division -> It trasform into integer number= 2.5 convert into 2
+
+print(4%2) # Modulus -> It Provides remainder of the Divsion
+
+print(4**2) # Exponential -> raising a number to a certain power (raised to power).
+
+~ Comparision Operators/ Relational Operators
+
+1. Equal to (==)
+2. Not equal to (!=)
+3. Less than (<)
+4. Greater than (>)
+5. Less than or equal to (<=)
+6. Greater than or equal to (>=)
+
+print(2==2)
+
+print(2!=2)
+
+print(2<3)
+
+print(2>3)
+
+print(2<=2)
+
+print(2>=2)
+
+~ Logical Operators
+
+1. Logical AND (and)
+2. Logical OR (or)
+3. Logical NOT (not)
+
+p = True
+q = False
+
+print(p and q) # true and false -> 1 and 0 = 0
+print(p or q) # true or false -> 1 or 0 = 1
+print(not p) 
+
+~ Assignment Operators
+
+1. Assignment (=)
+2. Add and Assign (+=)
+3. Subtract and Assign (-=)
+4. Multiply and Assign (*=)
+5. Divide and Assign (/=)
+6. Floor Divide and Assign (//=)
+7. Modulus and Assign (%=)
+8. Exponentiate and Assign (**=)
+
+x = 3
+x += 2
+print(x)  # Equivalent to x = x + 2
+
+x = 7
+x -= 3  # Equivalent to x = x - 3
+x *= 2  # Equivalent to x = x * 2
+x /= 3  # Equivalent to x = x / 3
+x //= 2 # Equivalent to x = x // 2
+x %= 3  # Equivalent to x = x % 3
+x **= 2 # Equivalent to x = x ** 2
+
+~ Bitwise Operators
+
+1. Bitwise AND (&)
+2. Bitwise OR (|)
+3. Bitwise XOR (^)
+4. Bitwise NOT (~)
+5. Left Shift (<<)
+6. Right Shift (>>)
+
+m = 5  # 101 in binary
+n = 3  # 011 in binary
+bitwise_and = m & n  # 001 (1 in decimal)
+print(bitwise_and)
+
+bitwise_or = m | n   # 111 (7 in decimal)
+print(bitwise_or)
+
+bitwise_xor = m ^ n  # 110 (6 in decimal)
+print(bitwise_xor)
+
+bitwise_not_m = ~m   # -6 (in decimal)
+print(bitwise_not_m)
+
+left_shift = m << 1  # 010 (2 in decimal)
+print(left_shift)
+
+right_shift = m >> 1 # 010 (2 in decimal)
+print(right_shift)
+
+
