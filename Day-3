@@ -1,0 +1,88 @@
+# 100-days-of-python-codes
+#Happy Learning !
+#Day 3 out of 100
+# If-Elif-Else, If-else, Nested if-else
+In Python, you can use the if, elif (short for "else if"), else, if-else, nested if else statements to create conditional and more complex conditional branches in your code. These statements allow you to execute different blocks of code based on certain conditions. Here's the basic syntax:
+
+x=23  #an example of if elif
+
+if x < 20:
+    print("x is less than 23")
+
+elif x==23:
+    print("x is equal to 23")
+    
+else:
+    print("x is greater than 23")
+    
+
+x = input('Enter the number') #another example
+
+# Convert x to an integer
+x = int(x)
+
+if x < 20:
+    print("x is less than 23")
+elif x == 23:
+    print("x is equal to 23")
+else:
+    print("x is greater than 23")
+
+stored_email = "niyatibareja7@gmail.com" #example of if-else
+stored_password = "1234"
+
+# User input
+email = input('Enter email: ') 
+password = input('Enter password: ')
+
+# Check if user input matches stored data
+if email == stored_email and password == stored_password:
+    print('Welcome')
+    
+elif email == stored_email and password != stored_password:
+    print('Incorrect Password')
+    password=input('Enter the password again') #if the user accidentally put wrong password.
+    if password== stored_password:   # this is nested if else
+        print('welcome,finally')
+    
+else:
+    print ('Authentication failed. Please check your email and password.')
+    
+
+x = 15 #example of nested if-else
+y = 10
+
+if x > 10:
+    print("x is greater than 15")
+    if y > 5:
+        print("y is also greater than 10")
+    else:
+        print("y is not greater than 10")
+else:
+    print("x is not greater than 15")
+
+# Modules In Python
+In Python, a module is a file containing Python code that can define functions, classes, and variables that can be reused in other Python scripts or programs. Modules are used to organize and encapsulate related code, making it easier to manage and maintain large codebases. Python provides a rich standard library with many built-in modules, and you can also create your own custom modules. we see some modules:
+
+Math module
+keywords
+random
+Data-time , etc
+
+# math
+import math
+
+math.sqrt(225)
+
+import keyword
+print(keyword.kwlist) # this will give u all the keyword list
+
+import random
+
+print(random.randint(1,100)) # it gives random number between 1 to 1
+
+import datetime
+
+print(datetime.datetime.now()) # this code gives you current time
+
+
